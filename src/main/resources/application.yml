@@ -1,0 +1,36 @@
+# Below String provides the info about the Mobile phones
+MOBILE_INFO: "{\"mob01\":{\"mobileId\":\"01\",\"mobileName\":\"iPhone6\",\"companyName\":\"Apple\",\"software\":\"ios\",\"version\": 6},\"mob02\":{\"mobileId\":\"02\",\"mobileName\":\"iPhone10\",\"companyName\":\"Apple\",\"software\":\"ios\",\"version\": 10},\"mob03\":{\"mobileId\":\"03\",\"mobileName\":\"Realme6\",\"companyName\":\"Oppo\",\"software\":\"android\",\"version\": 6},\"mob04\":{\"mobileId\":\"04\",\"mobileName\":\"Redmi9\",\"companyName\":\"Xiomi\",\"software\":\"android\",\"version\": 9}}"
+
+
+# Student Courses Info as a Map
+student:
+   courses:
+      'PCMB':
+        courseId: '01'
+        courseName: PCMB
+        courseSubjects: Physics, Chemistry, Mathematics, Biology
+      'PCMCs':
+        courseId: '02'
+        courseName: PCMCs
+        courseSubjects: Physics, Chemistry, Mathematics, Computer Science
+      'CEBA':
+        courseId: '03'
+        courseName: CEBA
+        courseSubjects: Computer Science, Economics, Business Studies, Accountancy
+      'SEBA':
+        courseId: '04'
+        courseName: CEBA
+        courseSubjects: Statistics, Economics, Business Studies, Accountancy
+
+# Values to map as String array
+STUDENT_NAMES: manjunath, manoj, sunil, vinay, raju, kiran
+
+
+# Values to map as List
+study:
+   subjects:
+      - Data Structures
+      - Algorithms
+      - Java
+      - Spring Boot
+      - Postgres
